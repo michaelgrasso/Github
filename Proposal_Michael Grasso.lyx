@@ -1,0 +1,927 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass report
+\begin_preamble
+\usepackage{parskip}
+\sloppy
+\usepackage[breaklinks]{hyperref}
+\end_preamble
+\use_default_options true
+\begin_modules
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 49
+Style Standard
+    Category              MainText
+    Margin                Static
+    LatexType             Paragraph
+    LatexName             dummy
+    ParIndent             MM
+    ParSkip               0.4
+    Align                 Block
+    AlignPossible         Block, Left, Right, Center
+    LabelType             No_Label
+    KeepEmpty             true
+    FreeSpacing           true
+    HTMLStyle
+        div.standard {
+            margin-bottom: 2ex;
+        }
+    EndHTMLStyle
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 3cm
+\headsep 2cm
+\footskip 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size huge
+JAMES COOK UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+COLLEGE OF SCIENCE, TECHNOLOGY AND ENGINEERING
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+EG4011/12
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+FPGA Implementation of a Cochlear Implant Using Phased Array   
+\begin_inset Newline linebreak
+\end_inset
+
+ Stimulation with an Electrode Weighting Scheme 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+MICHAEL GRASSO 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size large
+BACHELOR OF ENGINEERING (B.ENG.) 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size large
+ELECTRICAL AND ELECTRONICS ENGINEERING
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+THESIS PROPOSAL
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Chapter
+Introduction 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Research Questions
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+1) Can the implementation of the electrode weighting scheme be implemented
+ digitally in 
+\begin_inset Quotes eld
+\end_inset
+
+MyHDL
+\begin_inset Quotes erd
+\end_inset
+
+ hardware description language simulating it's operation?
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\align left
+2) Can this be synthesized and implemented on an FPGA, driven by a CP900
+ processor? 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Scope
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Chapter
+Literature Review 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Cochlear Implant Stimulation
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Normal Hearing and Deafness
+\end_layout
+
+\begin_layout Standard
+Sound undergoes a series of transformations as it travels though the human
+ ear, consisting of the outer, middle and inner ear then through the auditory
+ nerve and into the brain.
+ The outer ear captures acoustic pressure waves which are subsequently converted
+ to mechanical vibrations via the middle ear.
+ Once passing through to the inner the, the cochlea, a snail-shaped cavity
+ filled with fluid, transforms these vibrations in such a way that it leads
+ to the displacement of the basilar membrane.
+ Attached to this membrane are hair cells that are bent according to the
+ respective change in displacement of the membrane, causing a release in
+ an electrochemical substance causing neurons to fire, signaling the excitation
+ of a particular section of the inner ear.
+ Thus, these neurons communicate with systems in the brain and transmit
+ the acoustic signal information
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhiliposC.Loizou1998"
+
+\end_inset
+
+.
+ If these hair cells are damaged, the auditory system has no way of transforming
+ the acoustic pressure to neural impulses, leading to a hearing impairment.
+ However, the neurons can still be excited directly through electrical stimulati
+on, thus a purpose for the Cochlear Implant.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Multiple cochlear implants have been developed over the years with all implant
+ devices having the following features: a microphone to capture sound, a
+ signal processor to convert the sound into electrical signals, a transmission
+ system that transmits these signals to the electrode array inserted inside
+ the cochlea 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhiliposC.Loizou1998"
+
+\end_inset
+
+.
+ The electrodes can be stimulated in many ways, some are outlined in this
+ review.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Monopolar Stimulation 
+\end_layout
+
+\begin_layout Standard
+In today's cochlear implant (CI) systems, monopolar (MP) electrode stimulation
+ is predominantly used.
+ In this method of stimulation, current flows between an intra-cochlear
+ electrode (ICE), known as the active electrode and one or more extra-cochlear
+ electrodes (ECE), known as the reference electrode.
+ In monopolar stimulation mode, channels are defined respectively to the
+ active electrode.
+ Thus, 
+\emph on
+channel one
+\emph default
+ is defined as the first electrode in the array.
+ When applying stimulation to this channel, this means applying a current
+ between the first electrode and its corresponding reference electrode 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swanson2013"
+
+\end_inset
+
+.
+ In challenging situations, such as listening to a talker in the presence
+ of multiple competing voices, there can be large performance gaps between
+ CI and normal acoustic hearing.
+ It has previously been demonstrated that the speech understanding with
+ a CI improves with an increasing number of electrodes until approximately
+ 7-8, where speech-in-noise performance saturates 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Baskent2006"
+
+\end_inset
+
+.
+ A potential cause of the saturation in CI speech-in-noise performance at
+ this electrode number, may be the spread of excitation from the relatively
+ broad current flow produced by the monopolar stimulation modes used in
+ clinical CIs.
+ This current spread may lead to large overlaps in the neural excitation
+ patterns elicted by nearby electrodes, limiting the number of effective
+ channels and spectral resolution.
+ Reducing the spread of excitation is advantageous as it reduces interference
+ with other channels.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Multipolar Stimulation 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Multipolar stimulation, also referred to as phased array stimulation or
+ all-polar (AP) stimulation uses most, if not all, of the electrodes in
+ the array to deliver stimulation to the recipients cochlea incorporating
+ an optimised weighting unit to minimize simultaneous channel interactions.
+ In this mode, each channel calls for electric current to be applied to
+ one of the active electrodes in varying proportions
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swanson2013"
+
+\end_inset
+
+.A main limitation of the CI is the spread of current induced by each intra-cochl
+ear electrode: thus each electrode may activate an inappropriately large
+ range of sensory neurons, cause uncontrolled loudness and spectral shape
+ distortions.
+ This limits the ability to simultaneously present spectral or temporal
+ information at more than once cochlear site
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Marozeau2015"
+
+\end_inset
+
+.Thus, multipolar stimulation is advantageous due to that it incorporates
+ multiple current sources which could potentially reduce the spread of excitatio
+n.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Spectral Resolution 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Psychophysical results show that current focusing significantly improves
+ subjects' ability to discriminate spectral features, suggesting that focused
+ multipolar stimulation can increase the number of effective channels with
+ a cochlear implant.
+ A study was conducted that compared monopolar stimulation versus focused
+ stimulation, using multipolar channels, to test if current focusing can
+ increase spectral resolution.
+ In this study, two experiments were conducted to provide information on
+ the comparison on these two channel configurations.
+ The first experiment involved spectral ripple stimuli used to measure spectral
+ ripple phase discrimination thresholds.
+ These stimuli had a bandwidth ranging between (120-7680 Hz), covering the
+ full input frequency range of CI processing.
+ Four ripple densities were tested: 0.25, 0.5, 1.0, 2.0 cycles/octave.
+ The second experiment involved, dynamic ripple stimuli being used to measure
+ spectrotemporal modulation
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Smith2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+ Stimulation levels for the different CI maps were set for each channel
+ configuration separately, mapped to the appropriate threshold (T) current
+ levels and comfort (C) current levels.
+ For analysis, modulation depth is 0 dB for a fully modulated signal and
+ increasingly negative for smaller modulations.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Graphics
+	filename Images/dynamic ripple detection threshold.png
+	display false
+	width 45text%
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dynamic Ripple Detection Threshold 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Smith2013"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dynamic-Ripple-Detection"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/spectral ripple phase threshold.png
+	display false
+	width 45text%
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spectral Ripple Phase Threshold 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spectral-Ripple-Phase"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Smith2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+ Discuss these results 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Electrode Weighting Unit
+\end_layout
+
+\begin_layout Standard
+In current hearing protheses, the command module determines the magnitudes
+ of current to apply to each respective electrode in order to achieve appropriat
+e stimulation on the channel.
+ This results in the command module transmitting a data word for each electrode
+ array during multipolar stimulation, which potentially reduces the number
+ of individual applications of current to a channel per unit of time; known
+ as a pulse rate.
+ A recent US Patent Application by inventor Brett Swanson of Cochlear Limited
+ outlines a system and method of performing a weighting operation inside
+ the stimulation module of a stimulation prosthesis, which ameliorates this
+ problem.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swanson2013"
+
+\end_inset
+
+.
+ In accordance with this embodiment, a stimulation module includes a receiver
+ that is configured for receiving stimulation data transmitted by the command
+ module which includes a channel and amplitude value.
+ It also includes weighting unit configured for calculating, based on the
+ channel and amplitude value, a set of magnitudes and an arrangement of
+ current-sources and switches configured for applying current to the array
+ of electrodes based on the calculated set of magnitudes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swanson2013"
+
+\end_inset
+
+.
+ Thus, the stimulation module determines the individual electrodes and magnitude
+s of current to apply to each respective channel, thereby reducing the amount
+ of data transmitted between the command and stimulation module per pulse,
+ allowing for higher pulse rates.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Represented in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Command-and-Stimulation"
+
+\end_inset
+
+, is a simulation prothesis including the command and stimulation module.
+ A typical command module includes such components as a processor, memory
+ storage, and a RF interface.
+ In this review, the focus command module of a cochlear implant system also
+ contains at least one microphone to process an audio signal, working in
+ conjunction with a particular sound coding strategy.
+ In the cochlear implant system, the command module transmits information
+ of a serial RF inductive data link, which in some cases also provides power
+ to the stimulation module.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/Command and Stimulation Module.png
+	display false
+	width 50text%
+	height 5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Command and Stimulation Module
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Command-and-Stimulation"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swanson2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+For brevity in this review, the current applied on a channel will be referred
+ to as having an amplitude, whilst the current applied to an individual
+ electrode will be referred to as having a magnitude.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Chapter
+Methodology
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "BibTex/library"
+options "bibtotoc,plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

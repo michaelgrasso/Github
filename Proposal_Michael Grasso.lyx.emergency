@@ -1,0 +1,566 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass report
+\begin_preamble
+\usepackage{parskip}
+\exhyphenpenalty=10000\hyphenpenalty=10000
+\end_preamble
+\use_default_options true
+\begin_modules
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 49
+Style Standard
+    Category              MainText
+    Margin                Static
+    LatexType             Paragraph
+    LatexName             dummy
+    ParIndent             MM
+    ParSkip               0.4
+    Align                 Block
+    AlignPossible         Block, Left, Right, Center
+    LabelType             No_Label
+    KeepEmpty             true
+    FreeSpacing           true
+    HTMLStyle
+        div.standard {
+            margin-bottom: 2ex;
+        }
+    EndHTMLStyle
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 3cm
+\headsep 2cm
+\footskip 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size huge
+JAMES COOK UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+COLLEGE OF SCIENCE, TECHNOLOGY AND ENGINEERING
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+EG4011/12
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+FPGA Implementation of a Cochlear Implant Using Phased Array   
+\begin_inset Newline linebreak
+\end_inset
+
+ Stimulation with an Electrode Weighting Scheme 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+MICHAEL GRASSO 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size large
+BACHELOR OF ENGINEERING (B.ENG.) 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size large
+ELECTRICAL AND ELECTRONICS ENGINEERING
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size larger
+THESIS PROPOSAL
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{sloppy}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Chapter
+Introduction 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Research Questions
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+1) Can the implementation of the electrode weighting scheme be implemented
+ digitally in 
+\begin_inset Quotes eld
+\end_inset
+
+MyHDL
+\begin_inset Quotes erd
+\end_inset
+
+ hardware description language simulating it's operation?
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\align left
+2) Can this be synthesized and implemented on an FPGA, driven by a CP900
+ processor? 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Scope
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Chapter
+Literature Review 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Cochlear Implant Stimulation
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Normal Hearing and Deafness
+\end_layout
+
+\begin_layout Standard
+Sound undergoes a series of transformations as it travels though the human
+ ear, consisting of the outer, middle and inner ear then through the auditory
+ nerve and into the brain.
+ The outer ear captures acoustic pressure waves which are subsequently converted
+ to mechanical vibrations via the middle ear.
+ Once passing through to the inner the, the cochlea, a snail-shaped cavity
+ filled with fluid, transforms these vibrations in such a way that it leads
+ to the displacement of the basilar membrane.
+ Attached to this membrane are hair cells that are bent according to the
+ respective change in displacement of the membrane, causing a release in
+ an electrochemical substance causing neurons to fire, signaling the excitation
+ of a particular section of the inner ear.
+ Thus, these neurons communicate with systems in the brain and transmit
+ the acoustic signal information.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhiliposC.Loizou1998"
+
+\end_inset
+
+ If these hair cells are damaged, the auditory system has no way of transforming
+ the acoustic pressure to neural impulses, leading to a hearing impairment.
+ However, the neurons can still be excited directly through electrical stimulati
+on, thus a purpose for the Cochlear Implant.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Multiple cochlear implants have been developed over the years with all implant
+ devices having the following features: a microphone to capture sound, a
+ signal processor to convert the sound into electrical signals, a transmission
+ system that transmits these signals to the electrode array inserted inside
+ the cochlea.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhiliposC.Loizou1998"
+
+\end_inset
+
+ The electrodes can be stimulated in many ways, some are outlined in this
+ review.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Monopolar Stimulation 
+\end_layout
+
+\begin_layout Standard
+In today's cochlear implant (CI) systems, monopolar (MP) electrode stimulation
+ is predominantly used.
+ In this method of stimulation, current flows between an intra-cochlear
+ electrode (ICE), known as the active electrode and one or more extra-cochlear
+ electrodes (ECE), known as the reference electrode.
+ In monopolar stimulation mode, channels are defined respectively to the
+ active electrode.
+ Thus, 
+\emph on
+channel one
+\emph default
+ is defined as the first electrode in the array.
+ When applying stimulation to this channel, this means applying a current
+ between the first electrode and its corresponding reference electrode.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swanson2013"
+
+\end_inset
+
+ The advantage of monopolar stimulation is that only a single current source
+ is required to apply one instance of stimulation.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+The disadvantage of this form of stimulation is that there is a large spread
+ of excitation in stimulation.
+ This results in the nerve fibers of a recipient's cochlea located some
+ distance away from the active electrode potentially also being excited
+  
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Chapter
+Methodology
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{sloppy}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "BibTex/library"
+options "bibtotoc,plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
